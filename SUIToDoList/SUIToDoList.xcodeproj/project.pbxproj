@@ -32,6 +32,7 @@
 		BD71BFEE2B8A3B830055A49D /* ToDoListItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD71BFED2B8A3B830055A49D /* ToDoListItemViewViewModel.swift */; };
 		BD71BFF02B8A3B8C0055A49D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD71BFEF2B8A3B8C0055A49D /* User.swift */; };
 		BD71BFF22B8A3B990055A49D /* ToDoListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD71BFF12B8A3B990055A49D /* ToDoListItem.swift */; };
+		BD71BFF42B8A48CE0055A49D /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD71BFF32B8A48CE0055A49D /* HeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		BD71BFED2B8A3B830055A49D /* ToDoListItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemViewViewModel.swift; sourceTree = "<group>"; };
 		BD71BFEF2B8A3B8C0055A49D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		BD71BFF12B8A3B990055A49D /* ToDoListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItem.swift; sourceTree = "<group>"; };
+		BD71BFF32B8A48CE0055A49D /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 				BD71BFDB2B8A3A570055A49D /* LoginView.swift */,
 				BD71BFDD2B8A3A610055A49D /* RegisterView.swift */,
 				BD71BFDF2B8A3A6F0055A49D /* ToDoListItemView.swift */,
+				BD71BFF32B8A48CE0055A49D /* HeaderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -239,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD71BFDC2B8A3A570055A49D /* LoginView.swift in Sources */,
+				BD71BFF42B8A48CE0055A49D /* HeaderView.swift in Sources */,
 				BD71BFB92B8A2F530055A49D /* MainView.swift in Sources */,
 				BD71BFE22B8A3B030055A49D /* MainViewViewModel.swift in Sources */,
 				BD71BFD62B8A3A030055A49D /* ProfileView.swift in Sources */,
@@ -394,8 +398,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -423,8 +426,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
