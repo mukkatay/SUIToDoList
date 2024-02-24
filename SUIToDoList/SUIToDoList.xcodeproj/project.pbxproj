@@ -33,6 +33,7 @@
 		BD71BFF02B8A3B8C0055A49D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD71BFEF2B8A3B8C0055A49D /* User.swift */; };
 		BD71BFF22B8A3B990055A49D /* ToDoListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD71BFF12B8A3B990055A49D /* ToDoListItem.swift */; };
 		BD71BFF42B8A48CE0055A49D /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD71BFF32B8A48CE0055A49D /* HeaderView.swift */; };
+		BD71BFF62B8A5A920055A49D /* TDLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD71BFF52B8A5A920055A49D /* TDLButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		BD71BFEF2B8A3B8C0055A49D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		BD71BFF12B8A3B990055A49D /* ToDoListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItem.swift; sourceTree = "<group>"; };
 		BD71BFF32B8A48CE0055A49D /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		BD71BFF52B8A5A920055A49D /* TDLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDLButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 				BD71BFDD2B8A3A610055A49D /* RegisterView.swift */,
 				BD71BFDF2B8A3A6F0055A49D /* ToDoListItemView.swift */,
 				BD71BFF32B8A48CE0055A49D /* HeaderView.swift */,
+				BD71BFF52B8A5A920055A49D /* TDLButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -247,6 +250,7 @@
 				BD71BFE22B8A3B030055A49D /* MainViewViewModel.swift in Sources */,
 				BD71BFD62B8A3A030055A49D /* ProfileView.swift in Sources */,
 				BD71BFF02B8A3B8C0055A49D /* User.swift in Sources */,
+				BD71BFF62B8A5A920055A49D /* TDLButton.swift in Sources */,
 				BD71BFDE2B8A3A610055A49D /* RegisterView.swift in Sources */,
 				BD71BFD82B8A3A3E0055A49D /* ToDoListView.swift in Sources */,
 				BD71BFEC2B8A3B700055A49D /* RegisterViewViewModel.swift in Sources */,
