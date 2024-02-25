@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct LoginView: View {
-    
     @StateObject var viewModel = LoginViewViewModel()
     
     var body: some View {
@@ -32,11 +31,16 @@ struct LoginView: View {
                     SecureField("Password", text: $viewModel.password)
                         .textFieldStyle(RoundedBorderTextFieldStyle())
                     
+                    if !viewModel.errorMessage.isEmpty {
+                        Text(viewModel.errorMessage)
+                            .foregroundStyle(.red)
+                    }
+                    
                     TDLButton(
                         title: "Log In",
                         background: .blue
                     ) {
-                        //asd
+                        viewModel.login() 
                     }
                 }
                 .offset(y: -50)

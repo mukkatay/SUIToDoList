@@ -14,7 +14,7 @@ struct TDLButton: View {
     
     var body: some View {
         Button{
-            //asd
+            action()
         } label: {
             ZStack {
                 RoundedRectangle(cornerRadius: 10)
