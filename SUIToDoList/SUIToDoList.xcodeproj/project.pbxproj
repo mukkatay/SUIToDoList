@@ -81,6 +81,7 @@
 		BD71C0502B8B0BEC0055A49D /* FirebaseInAppMessaging-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = BD71C04F2B8B0BEC0055A49D /* FirebaseInAppMessaging-Beta */; };
 		BD71C0522B8B0BEC0055A49D /* FirebaseInAppMessagingSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = BD71C0512B8B0BEC0055A49D /* FirebaseInAppMessagingSwift-Beta */; };
 		BD71C0542B8B0BEC0055A49D /* FirebaseInstallations in Frameworks */ = {isa = PBXBuildFile; productRef = BD71C0532B8B0BEC0055A49D /* FirebaseInstallations */; };
+		BD71C0562B8B12330055A49D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD71C0552B8B12330055A49D /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -107,6 +108,7 @@
 		BD71BFF12B8A3B990055A49D /* ToDoListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItem.swift; sourceTree = "<group>"; };
 		BD71BFF32B8A48CE0055A49D /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		BD71BFF52B8A5A920055A49D /* TDLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDLButton.swift; sourceTree = "<group>"; };
+		BD71C0552B8B12330055A49D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -253,6 +255,7 @@
 				BD71BFBA2B8A2F540055A49D /* Assets.xcassets */,
 				BD71BFC42B8A310A0055A49D /* GoogleService-Info.plist */,
 				BD71BFB62B8A2F530055A49D /* SUIToDoListApp.swift */,
+				BD71C0552B8B12330055A49D /* Extensions.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -400,6 +403,7 @@
 				BD71BFE02B8A3A6F0055A49D /* ToDoListItemView.swift in Sources */,
 				BD71BFF22B8A3B990055A49D /* ToDoListItem.swift in Sources */,
 				BD71BFE42B8A3B270055A49D /* ProfileViewViewModel.swift in Sources */,
+				BD71C0562B8B12330055A49D /* Extensions.swift in Sources */,
 				BD71BFB72B8A2F530055A49D /* SUIToDoListApp.swift in Sources */,
 				BD71BFE82B8A3B4C0055A49D /* NewItemViewViewModel.swift in Sources */,
 				BD71BFE62B8A3B3A0055A49D /* ToDoListViewViewModel.swift in Sources */,
